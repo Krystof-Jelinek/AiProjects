@@ -1,0 +1,21 @@
+(define (problem mapf1)
+  (:domain mapf)
+  (:requirements :strips)
+  (:objects
+   agent1, agent2
+   t1 t2
+   )
+  (:init
+   (adjacent t1 t2)
+   (adjacent t2 t1)
+
+    (at agent1 t1)
+    (at agent2 t2)
+    )
+    (:goal
+    (and
+        (at agent1 t2)
+        (at agent2 t1)
+        )
+    )
+)

@@ -1,0 +1,5 @@
+agents: agent1, agent2, agent3
+tiles: t1, t2, t3, t4
+adjacents: t1 t2, t2 t3, t1 t4, t2 t4, t3 t4
+init: agent1 t3, agent2 t1, agent3 t2
+goal: agent1 t1, agent1 t1 , agent3 t3 
